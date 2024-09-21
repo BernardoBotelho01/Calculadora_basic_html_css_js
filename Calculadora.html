@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta><link rel="stylesheet" href="Calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="fundo">
+        <div class="calculadora">
+            <h1 id="alinhar">Calculadora</h1>
+            <p id="resultado"></p>
+            <table>
+                <tr>
+                    <td><button class="botao" onclick="botao ('7')">7</button></td>
+                    <td><button class="botao" onclick="botao ('8')">8</button></td>
+                    <td><button class="botao" onclick="botao ('9')">9</button></td>
+                    <td><button class="botao" onclick="botao ('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="botao ('4')">4</button></td>
+                    <td><button class="botao" onclick="botao ('5')">5</button></td>
+                    <td><button class="botao" onclick="botao ('6')">6</button></td>
+                    <td><button class="botao" onclick="botao ('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="botao ('1')">1</button></td>
+                    <td><button class="botao" onclick="botao ('2')">2</button></td>
+                    <td><button class="botao" onclick="botao ('3')">3</button></td>
+                    <td><button class="botao" onclick="botao ('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="calcular ()">=</button></td>
+                    <td><button class="botao" onclick="botao ('0')">0</button></td>
+                    <td><button class="botao" onclick="clean ()">c</button></td>
+                    <td><button class="botao" onclick="botao ('+')">+</button></td>
+                </tr>
+
+            </table>
+
+        </div>
+    </div>
+    
+    <Script src="./Calculadora.js"></Script>
+   
+</body>
+
+</html>
